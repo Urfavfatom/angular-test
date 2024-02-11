@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-  removeClass(){
-    document.getElementsByClassName('.light-container')[0].classList.remove('d-none');
+  removeClass(member:HTMLDivElement):void{
+    member.classList.remove('d-none')
+
   }
 }
 
