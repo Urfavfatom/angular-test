@@ -1,0 +1,84 @@
+.about-section{
+    padding-top: 70px;
+}
+.line{
+    width: 80px;
+    background-color:#324355;
+    height: 4px;
+    color: #324355;
+    
+}
+.child{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #324355;
+}
+
+
+i{
+    color: #324355;
+}
+
+
+.contact-details{
+    width: 60%;
+}
+
+
+.contact-btn{
+    background-color: #1abc9c;
+    margin-block: 30px;
+    margin-left: 23px;
+    color: white;
+}
+
+
+/* Input container */
+.input-container {
+    position: relative;
+    margin: 20px;
+  }
+  
+  /* Input field */
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  /* Input label */
+  .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: rgba(204, 204, 204, 0);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input highlight */
+  .input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input field:focus styles */
+  .input-field:focus + .input-label {
+    top: -20px;
+    font-size: 15px;
+    color: #1abc9c;
+  }
+  
+  .input-field:focus + .input-label + .input-highlight {
+    width: 100%;
+  }
